@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Friend = require('./models/frnds');
+const Friend = require('./frnds');
 
 
 // router.get('/', (req,res)=>{
@@ -37,3 +37,4 @@ router.post('/', async(req, res)=>{
 })
 
 module.exports= router;
+
